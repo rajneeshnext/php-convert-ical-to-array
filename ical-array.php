@@ -24,7 +24,7 @@ function icsToArray($paramUrl){
     return $icsDates;
 }
 function dateToCal($time) { return date('Ymd\This', strtotime($time)) . 'Z'; }
-$icspath = "https://www.airbnb.com/calendar/ical/17443256.ics?s=ceb268d8944375d50323bbc3fbd4172b";
+$icspath = "https://www.airbnb.com/calendar/ical/xxxxx.ics?s=ceb268d8944375d50323bbc3fbd4172b";
 $ics = icsToArray($icspath);
 $listings_cal = array();
 $i=0;
